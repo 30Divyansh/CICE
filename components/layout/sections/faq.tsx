@@ -11,7 +11,6 @@ interface FAQProps {
   answer: string;
   value: string;
 }
-
 const FAQList: FAQProps[] = [
   {
     question: "🌟 What is CICE Hub?",
@@ -22,13 +21,13 @@ const FAQList: FAQProps[] = [
   {
     question: "🎓 Who can join CICE Hub?",
     answer:
-      "Anyone with curiosity and a spark for innovation! Whether you're a beginner or an experienced maker—you're welcome here.",
+      "Anyone with curiosity and a spark for innovation! Whether you&apos;re a beginner or an experienced maker—you&apos;re welcome here.",
     value: "item-2",
   },
   {
     question: "🧠 What skills will I learn at CICE Hub?",
     answer:
-      "You'll master hands-on electronics, learn PCB fabrication, explore Arduino & AVR microcontrollers, and even build your own tech creations.",
+      "You&apos;ll master hands-on electronics, learn PCB fabrication, explore Arduino & AVR microcontrollers, and even build your own tech creations.",
     value: "item-3",
   },
   {
@@ -58,7 +57,7 @@ const FAQList: FAQProps[] = [
   {
     question: "💡 What makes CICE Hub unique?",
     answer:
-      "Our blend of community, creativity, and practical learning is unmatched. CICE Hub isn't just a club—it's a launchpad for ideas.",
+      "Our blend of community, creativity, and practical learning is unmatched. CICE Hub isn&apos;t just a club—it&apos;s a launchpad for ideas.",
     value: "item-8",
   },
   {

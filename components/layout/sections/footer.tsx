@@ -65,8 +65,9 @@ export const FooterSection = () => {
         <Separator className="my-10" />
 
         <div className="text-center text-muted-foreground text-lg font-semibold tracking-wide">
-          ✨ &copy; {new Date().getFullYear()} CICE JIIT — Where Ideas Take Flight ✨
-        </div>
+  ✨ &copy; {new Date().getFullYear()} CICE JIIT — Where Ideas Take Flight ✨
+</div>
+
       </div>
     </footer>
   );

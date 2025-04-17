@@ -48,15 +48,16 @@ export const HeroSection = () => {
               {/* <Badge>🙋‍♀️</Badge> */}
             </span>
             <div className="text-center space-y-4 mt-10">
-  <span
-    className="text-4xl md:text-5xl font-extrabold tracking-widest 
-               bg-gradient-to-r from-fuchsia-500 via-pink-500 to-orange-400 
-               dark:from-fuchsia-300 dark:via-pink-400 dark:to-yellow-300 
-               bg-clip-text text-transparent animate-text-glow drop-shadow-lg 
-               motion-safe:animate-pulse"
-  >
-    ✨ What's up, Dream Weaver  ✨
-  </span>
+            <span
+  className="text-4xl md:text-5xl font-extrabold tracking-widest 
+             bg-gradient-to-r from-fuchsia-500 via-pink-500 to-orange-400 
+             dark:from-fuchsia-300 dark:via-pink-400 dark:to-yellow-300 
+             bg-clip-text text-transparent animate-text-glow drop-shadow-lg 
+             motion-safe:animate-pulse"
+>
+  ✨ What&apos;s up, Dream Weaver ✨
+</span>
+
 
   <p
     className="text-xl md:text-2xl font-semibold tracking-wide 
