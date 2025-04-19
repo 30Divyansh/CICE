@@ -13,7 +13,14 @@ export default function EventsPage() {
       <p className="text-lg text-muted-foreground max-w-xl text-center mb-10">
         Stay tuned for a spectacular lineup of workshops, hackathons, meetups, and much more. We are crafting unforgettable moments just for you!
       </p>
-
+      <a
+    href="https://forms.gle/YOUR_GOOGLE_FORM_LINK"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-6 py-2 rounded-full bg-primary text-white hover:bg-primary/80 transition-colors duration-200"
+  >
+    Fill Out the Google Form
+  </a>
       {/* Timeline */}
       <div className="timeline">
         <div className="outer">
