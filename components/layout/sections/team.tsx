@@ -213,8 +213,8 @@ export const TeamSection = () => {
                   className="w-full aspect-square object-cover saturate-0 transition-all duration-200 ease-linear size-full group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
                 />
               </div>
-              <CardTitle className="py-6 pb-4 px-6">
-                {firstName}
+              <CardTitle className="py-6 pb-4 px-6 text-sm sm:text-base font-semibold">
+                <span>{firstName}</span>
                 <span className="text-primary ml-2">{lastName}</span>
               </CardTitle>
             </CardHeader>

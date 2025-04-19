@@ -21,7 +21,8 @@ export const EnhancedHighlights = () => {
                      text-white font-semibold px-6 py-2 rounded-full shadow-lg 
                      transition-transform hover:scale-105"
         >
-          🎉 Events 2025-26
+       <h2 className="text-3xl md:text-4xl font-bold">🎉 Vidyut ’25</h2>
+
         </Button>
       </Link>
 
