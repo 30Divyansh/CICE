@@ -13,14 +13,34 @@ export default function EventsPage() {
       <p className="text-lg text-muted-foreground max-w-xl text-center mb-10">
         Stay tuned for a spectacular lineup of workshops, hackathons, meetups, and much more. We are crafting unforgettable moments just for you!
       </p>
-      <a
-    href="https://forms.gle/YOUR_GOOGLE_FORM_LINK"
+      <div className="flex flex-col gap-4 items-center mt-6">
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSe5N__YQG8_wyuTwb-IjtAjYhgdvGXLVfW9T5OfMzGbX2ap3w/viewform"
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-block px-6 py-2 rounded-full bg-primary text-white hover:bg-primary/80 transition-colors duration-200"
+    className="inline-block w-[280px] text-center px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 to-red-500 text-white font-semibold shadow-lg hover:from-pink-600 hover:to-red-600 transition-all duration-300"
   >
-    Fill Out the Google Form
+    UNBOXED
   </a>
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSdUDK4bCqCWwgm1b73qqgKc6Vq5ZPQbNUVUBNbvA7JagNl2rg/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block w-[280px] text-center px-6 py-3 rounded-full bg-gradient-to-r from-green-400 to-teal-500 text-white font-semibold shadow-lg hover:from-green-500 hover:to-teal-600 transition-all duration-300"
+  >
+    MONOPOLY
+  </a>
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSeWq7gTmUT0vDQpL9oP4KE4-5V9aY8FCQc0j94u6N62w_DfqA/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block w-[280px] text-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold shadow-lg hover:brightness-110 transition-all duration-300"
+  >
+    CODE-CTRL
+  </a>
+</div>
+
+
       {/* Timeline */}
       <div className="timeline">
         <div className="outer">
