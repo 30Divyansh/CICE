@@ -38,6 +38,16 @@ export default function EventsPage() {
   >
     CODE-CTRL
   </a>
+  <a
+  href="https://code-ctrl.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block w-[280px] text-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold shadow-lg hover:brightness-110 transition-all duration-300"
+>
+  Event CODE-CTRL
+</a>
+
+  
 </div>
 
 
